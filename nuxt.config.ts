@@ -10,9 +10,6 @@ export default defineNuxtConfig({
     preset: 'static'
   },
 
-  compatibilityDate: '2024-04-03',
-  // devtools: { enabled: true },
-
   generate: {
     routes: [
       '/index',
@@ -20,10 +17,4 @@ export default defineNuxtConfig({
       '/tos',
     ],
   },
-  css: [
-    './assets/css/global.css',
-    './assets/css/make.css',
-    './assets/css/start.css',
-    './assets/css/tos.css',
-  ]
 })
