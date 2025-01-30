@@ -1,0 +1,82 @@
+.startbody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 120px;
+    padding-top: 120px;
+    gap: 10px;
+}
+.top-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.platforms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.platform-container {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.os-selection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 8px;
+    color: black;
+    gap: 3px;
+    &#ios {
+        background-color: white;
+    }
+    &#android {
+        background: linear-gradient(90deg, 
+            #4285F4,  /* Azul de Google */
+            #34A853,  /* Verde de Google */
+            #FBBC05,  /* Amarillo de Google */
+            #EA4335   /* Rojo de Google */
+        );
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.boot-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 8px;
+    color: black;
+    gap: 3px;
+    background-color: rgba(212, 212, 212, 0.212);
+    .option-presentation {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 3px;
+    }
+    .option-description {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.bottom-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    a {
+        color: #31ee64;
+    }
+}

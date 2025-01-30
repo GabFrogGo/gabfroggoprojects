@@ -1,0 +1,160 @@
+.makebody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 120px;
+    padding-top: 120px;
+    gap: 10px;
+}
+
+.blockcontainer {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 6px;
+    gap: 6px;
+}
+.objectcontainer {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 6px;
+    gap: 6px;
+    .ocdesign {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border: 2px solid black;
+        border-radius: 4px;
+        padding: 6px;
+        gap: 6px;
+    }
+    .ocinteractive {
+        display: flex;
+        flex-direction: column;
+        border: 2px solid black;
+        border-radius: 4px;
+        padding: 6px;
+        gap: 6px;
+    }
+    .ocvisual {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        border-radius: 4px;
+        padding: 6px;
+        gap: 6px;
+    }
+}
+.entrycontainer {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 6px;
+}
+
+.blockoptions {
+    display: flex;
+    flex-direction: column;
+}
+
+.rendered-body {
+    display: flex;
+    flex-direction: row;
+    background-color: burlywood;
+    .rendered-blocks {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        background-color: greenyellow;
+    }
+    .rendered-qrs {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        
+    }
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    border: 2px solid black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.qrcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    border: 2px solid black;
+}
+
+.template-selector {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+.template-logo {
+    display: flex;
+    justify-content: center;
+    svg {
+        height: 30px;
+        width: 30px;
+    }
+}
+/* .template-option {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 6px;
+    width: 250px;
+    height: 150px;
+    gap: 6px;
+    justify-content: center;
+    .template-description {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        overflow-y: auto;
+    }
+} */
+
+/* .json-editor {
+    align-items: center;
+    background-color: azure;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 8px;
+} */
+
+.block-container {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    .input-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .action-section {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
