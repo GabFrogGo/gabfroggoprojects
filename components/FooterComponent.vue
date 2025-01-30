@@ -1,8 +1,3 @@
-<script setup>
-    const config = useRuntimeConfig();
-    const baseURL = config.public.app.baseURL || "/";
-</script>
-
 <template>
     <footer>
         <div class="footer-content">
@@ -13,10 +8,10 @@
                             <li><strong>Busca por:</strong></li>
                             <ul>
                                 <li>
-                                    <NuxtLink :to="`${baseURL}make`">
+                                    <NuxtLink to="/make">
                                         "Make"
                                     </NuxtLink>
-                                    <NuxtLink :to="`${baseURL}tos`">
+                                    <NuxtLink to="/tos">
                                         Información
                                     </NuxtLink>
                                 </li>

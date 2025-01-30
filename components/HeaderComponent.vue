@@ -1,12 +1,7 @@
-<script setup>
-    const config = useRuntimeConfig();
-    const baseURL = config.public.app.baseURL || "/";
-</script>
-
 <template>
     <header>
         <div class="header-content">
-            <NuxtLink :to="`${baseURL}make`">
+            <NuxtLink to="/make">
                 <div class="content-boxes">
                     <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 2 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-braces">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -19,12 +14,12 @@
                     </svg>
                 </div>
             </NuxtLink>
-            <NuxtLink :to="`${baseURL}`">
+            <NuxtLink to="/">
                 <div class="content-boxes">
                     <img src="../assets//QLBuddy.webp" width="50" alt="QList">
                 </div>
             </NuxtLink>
-            <NuxtLink :to="`${baseURL}tos`">
+            <NuxtLink to="/tos">
                 <div class="content-boxes">
                     <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-slash">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>

@@ -7,7 +7,7 @@
         <div class="mid-page">
             <section class="options">
                 <div class="options-container">
-                    <NuxtLink :to="`${baseURL}make`">
+                    <NuxtLink to="/make">
                         <div class="boot-box">
                             <div class="option-presentation">
                                 <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 2 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-braces">
@@ -41,10 +41,7 @@
     </div>
 </template>
 
-<script setup>
-    const config = useRuntimeConfig();
-    const baseURL = config.public.app.baseURL || "/";
-
+<script setup lang="ts">
     useHead({
         title: 'QList-Web',
         meta: [
