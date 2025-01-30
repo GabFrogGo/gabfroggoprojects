@@ -17,4 +17,11 @@ export default defineNuxtConfig({
       '/tos',
     ],
   },
+  
+  css: [
+    './assets/css/global.css',
+    './assets/css/make.css',
+    './assets/css/start.css',
+    './assets/css/tos.css',
+  ],
 })
