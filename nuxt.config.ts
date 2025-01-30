@@ -3,7 +3,10 @@ export default defineNuxtConfig({
   ssr: false,
 
   app: {
-    baseURL: '/gabfroggoprojects/'
+    baseURL: '/gabfroggoprojects/', // Base URL para GitHub Pages
+    buildAssetsDir: '/gabfroggoprojects/_nuxt/', // Asegurar que los assets tengan el path correcto
+    // baseURL: '/', // Base URL para GitHub Pages
+    // buildAssetsDir: '/_nuxt/', // Asegurar que los assets tengan el path correcto ????
   },
 
   nitro: {
@@ -17,7 +20,7 @@ export default defineNuxtConfig({
       '/tos',
     ],
   },
-  
+
   css: [
     './assets/css/global.css',
     './assets/css/make.css',

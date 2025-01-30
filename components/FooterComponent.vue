@@ -8,12 +8,12 @@
                             <li><strong>Busca por:</strong></li>
                             <ul>
                                 <li>
-                                    <a href="/make">
+                                    <NuxtLink :to="`${$config.public.baseURL}make`">
                                         "Make"
-                                    </a>
-                                    <a href="/tos">
+                                    </NuxtLink>
+                                    <NuxtLink :to="`${$config.public.baseURL}tos`">
                                         Información
-                                    </a>
+                                    </NuxtLink>
                                 </li>
                             </ul>
                         </ul>
